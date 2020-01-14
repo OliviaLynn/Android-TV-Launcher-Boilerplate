@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AppLister : MonoBehaviour {
+public class AppLauncher : MonoBehaviour {
 
+    [Tooltip("Will write out a menu of hotkeys/app pairs.")]
     public UnityEngine.UI.Text textBox;
 
 	void Start () {
@@ -13,7 +14,7 @@ public class AppLister : MonoBehaviour {
         {
             string[] messages =
             {
-                "Hello!",
+                "Hello, Olivia!",
                 "Press 's' to go to Android TV Settings",
                 "Press 'c' to launch Chrome",
                 "Press 'y' to launch Youtube",
