@@ -29,6 +29,8 @@ IP Address: Go to `About` > `Status` to find your Android TV's IP address, and w
 ## ADB Connection
 Make sure you have adb set up on your computer.
 
+Also, make sure your computer and your device are on the same network.
+
 In your shell, type `adb connect <your Android TV's IP address>`. This will let you push the app directly from your computer to your Android TV without having to fumble around with a USB drive (and also let you look at console logs that the Android app outputs). 
 
 Go ahead and get your app onto your Android TV (in Unity, `Ctrl` + `Shift` + `B` to open Build Settings, then click `Build and Run`. If your adb is connected properly, your app will start running on your TV).
