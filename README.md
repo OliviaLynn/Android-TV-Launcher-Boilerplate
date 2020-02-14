@@ -1,5 +1,5 @@
 # Android TV Launcher (Boilerplate)
-<img src="https://img.shields.io/badge/android-9 (Pie)-blue"> <img src="https://img.shields.io/badge/unity-2017.4.34f1-blue"> <img src="https://img.shields.io/badge/maintained%3F-yes-green" /> <img src="https://img.shields.io/github/issues/OliviaLynn/Android-TV-Launcher" /> 
+<img src="https://img.shields.io/badge/android-9 (Pie)-blue"> <img src="https://img.shields.io/badge/unity-2017.4.34f1-blue"> <img src="https://img.shields.io/badge/maintained%3F-yes-green" /> <img src="https://img.shields.io/github/issues/OliviaLynn/Android-TV-Launcher-Boilerplate" /> 
 
 A boilerplate for making your own Android TV launcher in Unity, and a tutorial for setting the app you create as your default Android TV launcher via adb commands.
 
@@ -47,6 +47,6 @@ First of all (and this is very important!), **you should install a functional la
 
 Then, identify the package name of your default launcher. Mine was called `com.oranth.tvlauncher`. You can run `adb shell pm list packages` in your shell to see a list of all of the packages on your Android TV and to find your own.
 
-For Android 9, you'll want to run `adb shell pm uninstall -k --uesr 0 <name of your default launcher>` in your shell. For Android versions 6-8, you can find the alternative commands in [this post](https://forum.xda-developers.com/shield-tv/themes-apps/alternate-launcher-root-marshmallow-t3359076).
+For Android 9, you'll want to run `adb shell pm uninstall -k --user 0 <name of your default launcher>` in your shell. For Android versions 6-8, you can find the alternative commands in [this post](https://forum.xda-developers.com/shield-tv/themes-apps/alternate-launcher-root-marshmallow-t3359076).
 
 Now, when you hit your Home button, you'll get to choose either the launcher you downloaded or the launcher you built as your new default launcher.
