@@ -35,6 +35,13 @@ In your shell, type `adb connect <your Android TV's IP address>`. This will let 
 
 Go ahead and get your app onto your Android TV (in Unity, `Ctrl` + `Shift` + `B` to open Build Settings, then click `Build and Run`. If your adb is connected properly, your app will start running on your TV).
 
+## List Currently Installed Packages
+Helps you point to the app you'd like to launch. In your shell, run:
+
+`adb shell pm list packages`
+
+Check out [this page](https://adbshell.com/commands/adb-shell-pm-list-packages) for more options.
+
 ## Disable Default Launcher
 First of all (and this is very important!), **you should install a functional launcher** from the Play store as a backup. We're going to disable the built-in launcher, and the launcher we're replacing it with does not come with all the functionality of a standard launcher. Even if you do build it in, it's nice to have a backup, just in case.
 
