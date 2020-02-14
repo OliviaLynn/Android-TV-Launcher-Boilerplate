@@ -1,4 +1,4 @@
-# Android TV Launcher
+# Android TV Launcher (Boilerplate)
 <img src="https://img.shields.io/badge/android-9 (Pie)-blue"> <img src="https://img.shields.io/badge/unity-2017.4.34f1-blue"> <img src="https://img.shields.io/badge/maintained%3F-yes-green" /> <img src="https://img.shields.io/github/issues/OliviaLynn/Android-TV-Launcher" /> 
 
 A boilerplate for making your own Android TV launcher in Unity, and a tutorial for setting the app you create as your default Android TV launcher via adb commands.
